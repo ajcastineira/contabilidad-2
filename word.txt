@@ -1,0 +1,8 @@
+/*@NDRES90*/
+
+<?php require('inc/header.php');?>
+<?php require('inc/menu.php');?>
+<!-- Contenido -->
+
+<!-- Fin contenido -->
+<?php require('inc/footer.php');?>

@@ -1,0 +1,107 @@
+td {
+	text-align: left;
+	vertical-align: top;
+	font-family:Verdana;
+	font-size:12px;
+	color:#000000;
+	line-height:16px;
+}
+
+
+.input_contact{background-color:#ffffff;
+	width:300px;
+	height:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#584c3f;
+	border:1px solid #adadad;}
+	
+.textarea_contact{background-color:#ffffff;
+	width:320px;
+	height:93px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#584c3f;
+	border:1px solid #adadad;}
+
+
+
+body {margin:0px; padding:0px; background-image:url(images/background.jpg); background-repeat:repeat-x; background-color:#8090a6;}
+.menu_bg {background-image:url(images/menu.jpg); background-repeat:no-repeat;}
+.header {background-image:url(images/men1.jpg); background-repeat:no-repeat; background-position:right top;}
+.left {background-image:url(images/left.jpg); background-repeat:no-repeat; background-color:#000000; height: 635px; display:block;}
+.bottom {background-color:#000000;}
+.tab {background-color:#ffffff;}
+.title {background-color:#b9c9de;}
+
+
+.menu         { font-family: Arial, serif; font-size: 14px; color: #ffffff; text-decoration:none; font-weight:bold; display:block; width:140px; height:35px; text-align:center; padding-top:22px; background-image:url(images/menu_line.jpg); background-position:right; background-repeat:no-repeat; float:left;}
+.menu:link    { font-family: Arial, serif; font-size: 14px; color: #ffffff; text-decoration:none; font-weight:bold; display:block; width:140px; height:35px; text-align:center; padding-top:22px; background-image:url(images/menu_line.jpg); background-position:right; background-repeat:no-repeat; float:left;}
+.menu:hover   { font-family: Arial, serif; font-size: 14px; color: #f29c00; text-decoration:none; font-weight:bold; display:block; width:140px; height:35px; text-align:center; padding-top:22px; background-image:url(images/menu_line.jpg); background-position:right; background-repeat:no-repeat; float:left;}
+.menu:active  { font-family: Arial, serif; font-size: 14px; color: #ffffff; text-decoration:none; font-weight:bold; display:block; width:140px; height:35px; text-align:center; padding-top:22px; background-image:url(images/menu_line.jpg); background-position:right; background-repeat:no-repeat; float:left;}
+
+.menu1         { font-family: Arial, serif; font-size: 14px; color: #ffffff; text-decoration:none; font-weight:bold; display:block; width:140px; height:35px; text-align:center; padding-top:22px; float:left;}
+.menu1:link    { font-family: Arial, serif; font-size: 14px; color: #ffffff; text-decoration:none; font-weight:bold; display:block; width:140px; height:35px; text-align:center; padding-top:22px; float:left;}
+.menu1:hover   { font-family: Arial, serif; font-size: 14px; color: #f29c00; text-decoration:none; font-weight:bold; display:block; width:140px; height:35px; text-align:center; padding-top:22px; float:left;}
+.menu1:active  { font-family: Arial, serif; font-size: 14px; color: #ffffff; text-decoration:none; font-weight:bold; display:block; width:140px; height:35px; text-align:center; padding-top:22px; float:left;}
+
+.menu_bottom         { font-family: Verdana, serif; font-size: 11px; color: #ffffff; text-decoration:none;}
+.menu_bottom:link    { font-family: Verdana, serif; font-size: 11px; color: #ffffff; text-decoration:none;}
+.menu_bottom:hover   { font-family: Verdana, serif; font-size: 11px; color: #ffffff; text-decoration:underline;}
+.menu_bottom:active  { font-family: Verdana, serif; font-size: 11px; color: #ffffff; text-decoration:none;}
+
+.link         { font-family: Verdana, serif; font-size: 14px; color: #ffffff; font-weight:bold; text-decoration:none;}
+.link:link    { font-family: Verdana, serif; font-size: 14px; color: #ffffff; font-weight:bold; text-decoration:none;}
+.link:hover   { font-family: Verdana, serif; font-size: 14px; color: #f29c00; font-weight:bold; text-decoration:none;}
+.link:active  { font-family: Verdana, serif; font-size: 14px; color: #ffffff; font-weight:bold; text-decoration:none;}
+
+.news         { font-family: Verdana, serif; font-size: 12px; color: #bb0c0b; text-decoration:underline;}
+.news:link    { font-family: Verdana, serif; font-size: 12px; color: #bb0c0b; text-decoration:underline;}
+.news:hover   { font-family: Verdana, serif; font-size: 12px; color: #bb0c0b; text-decoration:none;}
+.news:active  { font-family: Verdana, serif; font-size: 12px; color: #bb0c0b; text-decoration:underline;}
+
+.read         { font-family: Verdana, serif; font-size: 12px; color: #f29c00; text-decoration:underline;}
+.read:link    { font-family: Verdana, serif; font-size: 12px; color: #f29c00; text-decoration:underline;}
+.read:hover   { font-family: Verdana, serif; font-size: 12px; color: #f29c00; text-decoration:none;}
+.read:active  { font-family: Verdana, serif; font-size: 12px; color: #f29c00; text-decoration:underline;}
+
+
+
+.red { color:#ea1344}
+.name {font-family:Arial, serif; font-size:20px; color:#000000;}
+.name1 {font-family:Arial, serif; font-size:20px; color:ffffff;}
+.blue {color:#344460;}
+.green {color:#6ce8e2;}
+
+.pictures { float:left; margin-right:15px; padding-bottom:20px;}
+.menu_line {margin-top:18px; margin-bottom:18px;}
+.read_im {margin-right:15px;}
+.logo {float:left; margin-left:20px; margin-top:20px; margin-right:20px; border: 1px solid red;}
+.title_im {margin-right:12px;}
+.line {padding-top:15px; padding-bottom:15px;}
+.str { list-style-image: url('images/str.jpg'); padding-left:15px; margin-left:15px; line-height:18px; margin-top:0px; margin-bottom:0px;}
+.str1 { list-style-image: url('images/str1.jpg'); padding-left:15px; margin-left:15px; line-height:22px; margin-top:0px; margin-bottom:0px;}
+.str2 { list-style-image: url('images/str2.jpg'); padding-left:13px; margin-left:13px; line-height:18px; margin-top:0px; margin-bottom:0px;}
+
+.copyright {color:#ffffff; font-size:11px; line-height:14px; float:left; margin-left:15px; margin-top:10px; padding-bottom:10px;}
+.div_menu_bottom {color:#ffffff; font-size:11px; float:right; margin-right:15px; margin-top:16px; padding-bottom:10px;}
+.blok_bottom {color:#ffffff; font-family:Arial; font-weight:bold; font-size:18px; padding-top:13px;}
+.div_left {padding:20px; color:#ffffff;}
+.div_title {padding:25px;}
+.blok {padding:20px;}
+.blok1 {margin-right:20px; margin-top:20px;}
+.blok2 {margin-left:20px; margin-right:20px; margin-top:20px; padding-bottom:20px;}
+.div_links {margin-left:20px; margin-top:20px;}
+
+#logo{
+	width: 295px;
+	height: 109px;
+	margin-top: 3px;
+	float: left;
+}
+
+.vermas a{
+	color: #5A6F8C;
+	text-decoration: none;
+	font-size: 11px;
+}
