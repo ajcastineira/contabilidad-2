@@ -1,10 +1,14 @@
 <?php 
+$nombre = isset($_POST['name']) ? $_POST['name'] : '';
+$correo = isset($_POST['email']) ? $_POST['email'] : '';
+$mensaje = isset($_POST['mensaje']) ? $_POST['mensaje'] : '';
+
 $destinatario = "andresfelipe9002@gmail.com"; 
-$asunto = "Este mensaje es de prueba"; 
+$asunto = "Consulta Formulario de contacto"; 
 $cuerpo = ' 
 <html lang="es"> 
 <head> 
-   <title>Prueba de correo</title> 
+   <title>Consulta Formulario de contacto</title> 
    <style>
    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     display: block;
@@ -14,11 +18,12 @@ $cuerpo = '
    </style>
 </head> 
 <body> 
-<h1>Hola amigos!</h1> 
-<p>
 <img src="http://clasicosbilingues.com/wp-content/uploads/2015/07/banner-contacto.jpg" alt="" class="img-responsive text-center"> <br>
-
-<b>Bienvenidos a mi correo electr&#243;nico de prueba</b>. Estoy encantado de tener tantos lectores. Este cuerpo del mensaje es del artículo de envío de mails por PHP. Habría que cambiarlo para poner tu propio cuerpo. Por cierto, cambia también las cabeceras del mensaje. 
+<h1>Buenas estimado</h1> 
+<p>
+Nombre : '.$nombre.' . <br>
+Correo : '.$correo.' <br>
+Mensaje : '.$mensaje.' 
 </p> 
 </body> 
 </html> 
@@ -29,7 +34,7 @@ $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
 
 //dirección del remitente 
-$headers .= "From: A&S Consultores <andresfelipe9002@gmail.com>\r\n"; 
+$headers .= "From: ".$nombre." <".$correo.">\r\n"; 
 
 //dirección de respuesta, si queremos que sea distinta que la del remitente 
 $headers .= "Reply-To: andresfelipe9002@gmail.com\r\n"; 

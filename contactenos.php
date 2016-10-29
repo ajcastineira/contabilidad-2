@@ -179,7 +179,7 @@ input[type="file"]::-webkit-file-upload-button {
   border-radius: 4px;
   box-sizing: border-box;
   margin: auto;
-  max-width: 450px;
+  max-width: 1000px;
   overflow: hidden;
   /*SUCESS STYLES*/
 }
@@ -346,7 +346,7 @@ input[type="file"]::-webkit-file-upload-button {
           <div id="contactForm" class="contactForm">
             <div id="formHeader" class="formHeader">
                 <h1 id="message">Contactanos</h1>
-            </div>
+            </div>                    
             <div id="formBody" class="formBody">
                 <form action="mail.php" method="POST" name="contactForm">
                     <div class="inputContainer">
@@ -362,9 +362,9 @@ input[type="file"]::-webkit-file-upload-button {
                         <input name="email" id="userEmail" type="email" placeholder="crist@domain.com">
                     </div>
                     <div class="inputContainer">
-                        <textarea name="feedback" id="userMessage" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                        <textarea name="mensaje" id="userMessage" rows="5" placeholder="Escribe tu mensaje"></textarea>
                     </div>
-                    <input id="submitBtn" class="submitBtn" type="submit" value="Enviar Mensaje">
+                    <input id="submitBtn" class="submitBtn" type="submit" value="Enviar Mensaje">                    
                 </form>
             </div>
         </div>
@@ -557,7 +557,7 @@ input[type="file"]::-webkit-file-upload-button {
 				}
 			};
 	//INITIATE FORM VALIDATOR
-	formValidator.init();
+//	formValidator.init();
 }());
             var enlace = document.getElementById('contactanos');
             enlace.className = "active";
