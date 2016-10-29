@@ -1,11 +1,3 @@
-<?php 
-$nombre = isset($_POST['name']) ? $_POST['name'] : '';
-$correo = isset($_POST['email']) ? $_POST['email'] : '';
-$mensaje = isset($_POST['mensaje']) ? $_POST['mensaje'] : '';
-
-$destinatario = "andresfelipe9002@gmail.com"; 
-$asunto = "Consulta Formulario de contacto"; 
-$cuerpo = ' 
 <html lang="es"> 
 <head> 
    <title>Consulta Formulario de contacto</title> 
@@ -49,28 +41,3 @@ $cuerpo = '
 </form>
 </body> 
 </html> 
-'; 
-
-//para el envío en formato HTML 
-$headers = "MIME-Version: 1.0\r\n"; 
-$headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
-
-//dirección del remitente 
-$headers .= "From: ".$nombre." <".$correo.">\r\n"; 
-
-//dirección de respuesta, si queremos que sea distinta que la del remitente 
-$headers .= "Reply-To: andresfelipe9002@gmail.com\r\n"; 
-
-//ruta del mensaje desde origen a destino 
-$headers .= "Return-path: andresfelipe9002@gmail.com\r\n"; 
-
-//direcciones que recibián copia 
-$headers .= "Cc: andresfelipelopezgallego@hotmail.com\r\n"; 
-
-//direcciones que recibirán copia oculta 
-//$headers .= "Bcc: andresfelipe9002@gmail.com\r\n"; 
-
-mail($destinatario,$asunto,$cuerpo,$headers) ;
-
-header('Location : contactenos.php');
-?>
